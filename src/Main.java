@@ -38,8 +38,8 @@ class BankAccount {
         }
     }
 
-    void getBalance() {
-        System.out.println("Your balance is $" + balance);
+    public double getBalance() {
+        return balance;
     }
 }
 
@@ -155,7 +155,7 @@ class Main {
                         break;
                     }
                     case 3: {
-                        newAccount.getBalance();
+                        System.out.println("Current balance: $" + newAccount.getBalance());
                         break;
                     }
                     case 4: {
