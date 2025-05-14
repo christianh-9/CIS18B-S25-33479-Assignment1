@@ -16,7 +16,7 @@ Running in IDE:
 
 Running in terminal:  
 1. Clone using git clone https://github.com/christianh-9/CIS18B-S25-33479-Assignment1  
-2. Run cd CIS18B-S25-33479-Assignment1
+2. Run cd CIS18B-S25-33479-Assignment1/bankingApp
 3. javac src/Main.java
 4. java -cp src Main
 
